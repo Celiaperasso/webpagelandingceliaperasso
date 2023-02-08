@@ -1,0 +1,145 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Custom designs */
+@import url(components/banner.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
+@import url(assets/images/Images-flowers/Rose.jpg);
+
+/* Utilities */
+body {
+    margin: 0;
+    font-family: Open Sans, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: Poppins, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.btn-primary{
+    background-color: brown;	
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.btn-primary:hover{
+	background-color: lightcoral;
+}
+.lilacs{
+    border-radius: 20%;
+}
+
+.bouquetblanc{
+    border-radius: 20%;
+}
+
+.rose{
+    border-radius: 20%;
+ 
+}
+
+.fab fa-fw fa-instagram{
+    color: brown;
+}
+
+
+.fab fa-fw fa-instagram:hover{
+    color: lightcoral;
+}
+
+
+
+.btn-brown{
+	background-color: brown;	
+text-decoration: none;
+color: black;
+padding: 10px 15px;
+border-radius: 4px;
+}
+
+.btn-brown:hover{
+	background-color: lightcoral;
+}
+
+
+.btn-brown2{
+	background-color: brown;	
+text-decoration: none;
+color: black;
+padding: 10px 15px;
+border-radius: 4px;
+}
+
+.btn-brown2:hover{
+	background-color: lightcoral;
+}
+
+
+.btn-brown3{
+	background-color: brown;	
+text-decoration: none;
+color: black;
+padding: 10px 15px;
+border-radius: 4px;
+margin-bottom: 15px;
+}
+
+.btn-brown3:hover{
+	background-color: lightcoral;
+}
+
+nav{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background:#2c2b2b ;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav-links{
+	display:flex;
+	width: 800px;
+	justify-content: space-around;
+}
+.nav-links li{
+	list-style: none;
+}
+
+.nav-links a{
+	color: rgb(226,226, 226);
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size:14px;
+	color: brown;
+}
+.logo a{
+	cursor: pointer;
+    text-decoration: none;
+    color: brown;
+}
+
+
+.logo{
+	color: rgb(226,226,226);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
